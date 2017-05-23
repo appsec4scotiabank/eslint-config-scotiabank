@@ -1,0 +1,19 @@
+{
+  "name": "@scotia/eslint-config-scotiabank",
+  "version": "0.0.0",
+  "description": "Standard eslint configuration for Scotiabank.",
+  "main": "index.js",
+  "repository": "git@github.com:scotiabank/eslint-config-scotiabank.git",
+  "homepage": "https://github.com/scotiabank/eslint-config-scotiabank",
+  "license": "MPL-2.0",
+  "keywords": [
+    "eslint"
+  ],
+  "dependencies": {
+    "eslint-config-standard": "10.2.1",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-node": "4.2.2",
+    "eslint-plugin-promise": "3.5.0",
+    "eslint-plugin-standard": "3.0.1"
+  }
+}
