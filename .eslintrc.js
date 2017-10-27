@@ -1,2 +1,1 @@
-const config = require('./index');
-module.exports = config;
+module.exports = require('./index');
