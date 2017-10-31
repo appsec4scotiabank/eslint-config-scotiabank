@@ -1,34 +1,13 @@
 {
-  "name": "@scotia/eslint-config-scotiabank",
-  "version": "1.1.0",
-  "description": "Standard eslint configuration for Scotiabank.",
-  "main": "index.js",
+  "name": "@scotia/eslint-config-scotiabank-packages",
   "repository": "git@github.com:scotiabank/eslint-config-scotiabank.git",
   "homepage": "https://github.com/scotiabank/eslint-config-scotiabank",
   "license": "MPL-2.0",
-  "keywords": [
-    "eslint",
-    "javascript",
-    "scotiabank",
-    "config"
-  ],
   "scripts": {
-    "test": "eslint *.js **/*.js"
-  },
-  "peerDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
+    "postinstall": "lerna bootstrap --stream",
+    "test": "lerna run test --stream"
   },
   "devDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
-  },
-  "dependencies": {
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-config-airbnb-base": "^12.1.0"
+    "lerna": "^2.4.0"
   }
 }

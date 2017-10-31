@@ -1,6 +1,6 @@
 module.exports = {
   extends: [
-    './base',
+    '@scotia/eslint-config-scotiabank-base',
     'eslint-config-airbnb/rules/react',
     'eslint-config-airbnb/rules/react-a11y',
 
