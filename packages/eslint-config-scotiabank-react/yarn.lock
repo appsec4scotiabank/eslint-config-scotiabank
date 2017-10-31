@@ -2,6 +2,12 @@
 # yarn lockfile v1
 
 
+"@scotia/eslint-config-scotiabank-base@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@scotia/eslint-config-scotiabank-base/-/eslint-config-scotiabank-base-1.0.0.tgz#6bb03bc3e26a957e486ffbe0d22479496928034c"
+  dependencies:
+    eslint-config-airbnb-base "^12.1.0"
+
 acorn-jsx@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/acorn-jsx/-/acorn-jsx-3.0.1.tgz#afdf9488fb1ecefc8348f6fb22f464e32a58b36b"

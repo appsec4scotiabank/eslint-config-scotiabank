@@ -28,7 +28,7 @@
     "eslint-plugin-react": "^7.4.0"
   },
   "dependencies": {
-    "@scotia/eslint-config-scotiabank-base": "^1.1.0",
+    "@scotia/eslint-config-scotiabank-base": "^1.0.0",
     "eslint-config-airbnb": "^16.1.0"
   }
 }
