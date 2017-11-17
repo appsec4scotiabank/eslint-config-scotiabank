@@ -20,6 +20,11 @@ module.exports = {
       ignoreRegExpLiterals: true,
       ignoreStrings: true,
       ignoreTemplateLiterals: true
-    }]
+    }],
+
+    // Enforce consistent usage of linebreaks between parenthesis
+    // Note: 'multiline' (default) not compatible with single JSX parameter
+    // https://eslint.org/docs/rules/function-paren-newline
+    'function-paren-newline': ['error', 'consistent']
   }
 };
