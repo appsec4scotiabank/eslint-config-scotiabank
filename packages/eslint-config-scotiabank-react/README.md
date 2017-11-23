@@ -15,7 +15,7 @@ This package relies on `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, 
 
 Please ensure they are installed as well:
 ```bash
-yarn info @scotia/eslint-config-scotiabank-react@latest peerDependencies
+npm info @scotia/eslint-config-scotiabank-react@latest peerDependencies
 ```
 
 ### Configuration

@@ -15,7 +15,7 @@ This package relies on `eslint` and `eslint-plugin-import` as peer dependencies.
 
 Please ensure they are installed as well:
 ```bash
-yarn info @scotia/eslint-config-scotiabank-base@latest peerDependencies
+npm info @scotia/eslint-config-scotiabank-base@latest peerDependencies
 ```
 
 ### Configuration
