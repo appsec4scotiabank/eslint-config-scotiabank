@@ -6,6 +6,10 @@ module.exports = {
       devDependencies: true,
       optionalDependencies: false,
       peerDependencies: true
-    }]
+    }],
+
+    // Disable prefer-default-export rule
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
+    'import/prefer-default-export': 'off'
   }
 };
