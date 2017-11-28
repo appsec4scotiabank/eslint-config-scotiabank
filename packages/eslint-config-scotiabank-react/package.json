@@ -1,6 +1,6 @@
 {
   "name": "@scotia/eslint-config-scotiabank-react",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "ESLint configuration for Scotiabank with React support",
   "main": "index.js",
   "repository": "git@github.com:scotiabank/eslint-config-scotiabank.git",
@@ -28,7 +28,7 @@
     "eslint-plugin-react": "^7.4.0"
   },
   "dependencies": {
-    "@scotia/eslint-config-scotiabank-base": "1.1.2",
+    "@scotia/eslint-config-scotiabank-base": "1.2.0",
     "eslint-config-airbnb": "^16.1.0"
   }
 }
