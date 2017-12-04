@@ -10,6 +10,10 @@ module.exports = {
 
     // Disable prefer-default-export rule
     // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/prefer-default-export.md
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+
+    // Disable no-named-as-default rule as it conflicts with common react-redux pattern
+    // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-as-default.md
+    'import/no-named-as-default': 'off'
   }
 };
