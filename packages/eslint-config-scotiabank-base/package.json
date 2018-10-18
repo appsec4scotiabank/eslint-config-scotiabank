@@ -1,6 +1,6 @@
 {
   "name": "@scotia/eslint-config-scotiabank-base",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Base ESLint configuration for Scotiabank",
   "main": "index.js",
   "repository": "git@github.com:scotiabank/eslint-config-scotiabank.git",

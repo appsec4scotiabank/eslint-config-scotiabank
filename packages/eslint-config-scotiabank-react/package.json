@@ -1,6 +1,6 @@
 {
   "name": "@scotia/eslint-config-scotiabank-react",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "ESLint configuration for Scotiabank with React support",
   "main": "index.js",
   "repository": "git@github.com:scotiabank/eslint-config-scotiabank.git",
