@@ -1,6 +1,6 @@
 {
   "name": "@scotia/eslint-config-scotiabank-react",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "ESLint configuration for Scotiabank with React support",
   "main": "index.js",
   "repository": "git@github.com:scotiabank/eslint-config-scotiabank.git",
@@ -16,19 +16,19 @@
     "test": "eslint *.js **/*.js"
   },
   "peerDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint": "^5.7.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
   },
   "devDependencies": {
-    "eslint": "^4.9.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.4.0"
+    "eslint": "^5.7.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
   },
   "dependencies": {
-    "@scotia/eslint-config-scotiabank-base": "1.3.0",
-    "eslint-config-airbnb": "^16.1.0"
+    "@scotia/eslint-config-scotiabank-base": "2.0.0",
+    "eslint-config-airbnb": "^17.1.0"
   }
 }
