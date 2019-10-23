@@ -16,11 +16,11 @@
     esutils "^2.0.2"
     js-tokens "^4.0.0"
 
-"@scotia/eslint-config-scotiabank-base@1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@scotia/eslint-config-scotiabank-base/-/eslint-config-scotiabank-base-1.3.0.tgz#27b3c939167b49d9dd0d087ae968c068a102dc55"
+"@scotia/eslint-config-scotiabank-base@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@scotia/eslint-config-scotiabank-base/-/eslint-config-scotiabank-base-2.0.0.tgz#b1bea515f8d3b01257e97cf4d939380a7fdea328"
   dependencies:
-    eslint-config-airbnb-base "^12.1.0"
+    eslint-config-airbnb-base "^13.1.0"
 
 acorn-jsx@^4.1.1:
   version "4.1.1"
@@ -56,8 +56,8 @@ ansi-styles@^3.1.0:
     color-convert "^1.9.0"
 
 argparse@^1.0.7:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.9.tgz#73d83bc263f86e97f8cc4f6bae1b0e90a7d22c86"
+  version "1.0.10"
+  resolved "https://registry.yarnpkg.com/argparse/-/argparse-1.0.10.tgz#bcd6791ea5ae09725e17e5ad988134cd40b3d911"
   dependencies:
     sprintf-js "~1.0.2"
 
@@ -276,12 +276,6 @@ escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-airbnb-base@^12.1.0:
-  version "12.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-12.1.0.tgz#386441e54a12ccd957b0a92564a4bafebd747944"
-  dependencies:
-    eslint-restricted-globals "^0.1.1"
-
 eslint-config-airbnb-base@^13.1.0:
   version "13.1.0"
   resolved "https://registry.yarnpkg.com/eslint-config-airbnb-base/-/eslint-config-airbnb-base-13.1.0.tgz#b5a1b480b80dfad16433d6c4ad84e6605052c05c"
@@ -420,8 +414,8 @@ espree@^4.0.0:
     acorn-jsx "^4.1.1"
 
 esprima@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
 
 esquery@^1.0.1:
   version "1.0.1"
@@ -685,8 +679,8 @@ js-tokens@^4.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
 
 js-yaml@^3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.12.0.tgz#eaed656ec8344f10f527c6bfa1b6e2244de167d1"
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.13.1.tgz#aff151b30bfdfa8e49e05da22e7415e9dfa37847"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
